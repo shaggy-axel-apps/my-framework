@@ -12,6 +12,10 @@ pip install -r requirements.txt
 
 # Usage
 ```bash
-# run server
+# run simple wsgi
 gunicorn src.simple_wsgi:application
+
+# run wsgi framework
+cd src
+gunicorn manage:application
 ```
