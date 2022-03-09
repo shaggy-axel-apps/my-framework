@@ -19,3 +19,5 @@ gunicorn src.simple_wsgi:application
 cd src
 gunicorn manage:application
 ```
+
+see urlpatterns in `src.blog_project.urls`
